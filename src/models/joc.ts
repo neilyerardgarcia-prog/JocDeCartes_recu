@@ -1,5 +1,5 @@
 export class Joc {
-  public players: string[] = ['Alumne 1', 'Alumne 2', 'Alumne 3'];
+  public players: string[] = ['Neil', 'Youseff', 'Luis'];
   public stack: string[] = [];
   public playedCards: string[] = [];
   public currentPlayer: number = 0;
@@ -10,7 +10,7 @@ export class Joc {
       this.stack.push('hearts_' + i)
       this.stack.push('clubs_' + i)
       this.stack.push('diamonds_' + i)
-
+      this.stack.push('Comodin_14')
       shuffle(this.stack);
     }
   }

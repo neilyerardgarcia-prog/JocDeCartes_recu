@@ -1,4 +1,24 @@
-<div class="player">
-  <img src="/assets/img/profile/1.webp" alt="">
-  <span>{{ name }}</span>
+<div class="player" >
+<div class="neil" [style.background-color]="divColorneil">
+  @if (name === 'Neil') {
+    <img src="/assets/img/profile/monkey.png" alt="">
+    <span>{{ name }}</span>
+    <span> {{ cosa.jug1 }}</span>
+  }
 </div>
+<div class="yousef" [style.background-color]="yous">
+  @if (name === 'Luis') {
+    <img src="/assets/img/profile/pinguin.svg" alt="">
+    <span>{{ name }}</span>
+    <span> {{ cosa.jug2 }}</span>
+  }
+</div>
+<div class="luis" [style.background-color]="luis">
+  @if (name === 'Youseff') {
+    <img src="/assets/img/profile/serious-woman.svg" alt="">
+    <span>{{ name }}</span>
+    <span> {{ cosa.jug3 }}</span>
+  }
+</div>
+</div>
+

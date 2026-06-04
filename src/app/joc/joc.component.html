@@ -1,3 +1,5 @@
+<button class="botondenombre" (click)="mostrarnombre()">mostrar el nombre</button>
+{{nombredecarta}}
 @for (player of game?.players; track player; let i = $index){
   <app-jugador
     [ngStyle]="{ 'top.px': 100 + i * 120 }"
@@ -7,7 +9,7 @@
   ></app-jugador>
 }
 
-<div class="field">
+<div class="field" >
   <div class="card-stack">
     <!-- Card stack-->
     @for (c of [0, 1, 2, 3, 4]; track c; let i = $index){
@@ -47,3 +49,4 @@
   </div>
 
 </div>
+

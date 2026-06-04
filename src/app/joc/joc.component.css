@@ -73,4 +73,9 @@
       cursor: pointer;
     }
   }
+  .botondenombre{
+    color: red;
+    padding: 10em;
+  }
 }
+
